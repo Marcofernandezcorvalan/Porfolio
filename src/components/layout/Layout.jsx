@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
+import { useLocation } from "react-router-dom";
 
 export const LayoutStd = styled.div`
-	/* display: flex;
-	align-items: center;
+	display: flex;
+	/* align-items: center;
 	justify-content: center; */
 	height: calc(100vh - 120px);
 	margin: 0 auto;
@@ -21,13 +22,17 @@ export const ContentCont = styled.div`
 	width: 100%;
 `;
 
-const Layout = () => {
+const Layout = ({ children }) => {
+	const { pathname } = useLocation();
+
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, [pathname]);
+
 	return (
 		<>
 			<LayoutStd>
-				<ContentCont>
-					<h1>hola</h1>
-				</ContentCont>
+				<ContentCont>{children}</ContentCont>
 			</LayoutStd>
 		</>
 	);
