@@ -4,14 +4,14 @@ import { useLocation } from "react-router-dom";
 
 export const LayoutStd = styled.div`
 	display: flex;
-	/* align-items: center;
-	justify-content: center; */
+	align-items: center;
+	justify-content: center;
 	height: calc(100vh - 120px);
 	margin: 0 auto;
 	& p {
 		text-align: center;
 	}
-	max-width: 1300px;
+	max-width: 1000px;
 `;
 
 export const ContentCont = styled.div`
@@ -19,7 +19,7 @@ export const ContentCont = styled.div`
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	width: 100%;
+	width: 90%;
 `;
 
 const Layout = ({ children }) => {
