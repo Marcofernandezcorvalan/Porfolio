@@ -6,7 +6,7 @@ export const LayoutStd = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: calc(100vh - 120px);
+	/* height: calc(100vh - 120px); */
 	margin: 0 auto;
 	& p {
 		text-align: center;
@@ -20,6 +20,7 @@ export const ContentCont = styled.div`
 	justify-content: center;
 	flex-direction: column;
 	width: 90%;
+	/* margin-top: 200px; */
 `;
 
 const Layout = ({ children }) => {
