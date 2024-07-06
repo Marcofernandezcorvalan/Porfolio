@@ -97,7 +97,7 @@ export const Parraf = styled.p`
 	color: #dcd3d3e6;
 `;
 
-export const Habs = styled.div`
+export const Habs = styled.section`
 	display: flex;
 	align-items: center;
 	justify-content: center;

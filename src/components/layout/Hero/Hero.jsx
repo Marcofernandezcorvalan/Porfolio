@@ -11,8 +11,12 @@ const Hero = () => {
 				<Name style={{ textWrap: "balance" }}>Fernandez Corvalán Marco</Name>
 				<H4>Full Stack Developer</H4>
 				<IconsCont>
-					<FaGithub style={{ color: "#00ff2fc7", fontSize: "25px", cursor: "pointer" }} />
-					<FaLinkedin style={{ color: "#375bc9", fontSize: "25px", cursor: "pointer" }} />
+					<a href="https://github.com/Marcofernandezcorvalan">
+						<FaGithub style={{ color: "#00ff2fc7", fontSize: "25px", cursor: "pointer" }} />
+					</a>
+					<a href="https://www.linkedin.com/in/marco-fer-corv/">
+						<FaLinkedin style={{ color: "#375bc9", fontSize: "25px", cursor: "pointer" }} />
+					</a>
 				</IconsCont>
 			</ContTitle>
 			<ImgCont>
