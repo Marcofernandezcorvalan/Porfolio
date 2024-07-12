@@ -26,7 +26,9 @@ export const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;   
         margin: 0;
         padding: 0;
-        background: #0d0d0d;
+        /* background: #171717; */
+        /* background-color: #041206; */
+        background-color: #F2F3F5;
         font-family: 'Rubik', sans-serif;
         color: white;
         -webkit-tap-highlight-color: transparent;

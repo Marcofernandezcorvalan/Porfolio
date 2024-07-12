@@ -1,5 +1,5 @@
 import React from "react";
-import { ProyectCont } from "./ProyectsStyled";
+import { ContProyectItems, ProyectCont, ProyectItem } from "./ProyectsStyled";
 import { Name } from "../../../pages/Home/HomeStyled";
 
 const Proyects = () => {
@@ -7,6 +7,12 @@ const Proyects = () => {
 		<>
 			<ProyectCont>
 				<Name>Proyects</Name>
+				<ContProyectItems>
+					<ProyectItem>asd</ProyectItem>
+					<ProyectItem>asd</ProyectItem>
+					<ProyectItem>asd</ProyectItem>
+					<ProyectItem>asd</ProyectItem>
+				</ContProyectItems>
 			</ProyectCont>
 		</>
 	);

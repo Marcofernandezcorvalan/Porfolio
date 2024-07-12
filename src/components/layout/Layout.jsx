@@ -11,15 +11,17 @@ export const LayoutStd = styled.div`
 	& p {
 		text-align: center;
 	}
-	max-width: 1000px;
+	max-width: 1300px;
 `;
 
 export const ContentCont = styled.div`
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
 	justify-content: center;
 	flex-direction: column;
-	width: 90%;
+	gap: 20px;
+	width: 100%;
+	padding: 20px;
 	/* margin-top: 200px; */
 `;
 

@@ -1,18 +1,25 @@
 import styled from "styled-components";
 
+export const ContainerP = styled.main`
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+`;
+
 export const HeroCont = styled.section`
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	width: 100%;
+	/* flex-direction: column; */
+	width: 55%;
 	/* gap: 30px; */
-	background-color: var(--secondbg);
+	background-color: var(--background);
 	/* background-color: #221f1f96; */
-	padding: 25px 25px;
+	padding: 10px;
 	border-radius: 10px;
-	margin-top: 200px;
-	margin-bottom: 100px;
-	/* height: calc(100vh - 120px); */
+	/* margin-top: 200px; */
+	/* margin-bottom: 100px; */
+	height: 350px;
 `;
 
 export const ContTitle = styled.div`
@@ -28,21 +35,24 @@ export const Name = styled.h2`
 	justify-content: center;
 	align-items: center;
 	font-size: 25px;
-	color: #90ee90cb;
+	/* color: #90ee90cb; */
+	color: whitesmoke;
 	width: 80%;
 	text-align: center;
 `;
 
 export const ImgCont = styled.div`
 	display: flex;
-	width: 50%;
+	width: 45%;
 	justify-content: center;
 `;
 
 export const Img = styled.img`
-	border-radius: 100px;
-	width: 50%;
-	border: 5px solid var(--background);
+	border-radius: 50px;
+	filter: drop-shadow(5px -10px 20px rgba(200, 127, 38, 0.3));
+	width: 80%;
+	/* border: 5px solid var(--background); */
+	opacity: 0.85;
 `;
 
 export const IconsCont = styled.div`
@@ -80,13 +90,12 @@ export const AboutMe = styled.section`
 	align-items: center;
 	flex-direction: column;
 	justify-content: space-evenly;
-	width: 100%;
+	width: 45%;
 	gap: 30px;
-	background-color: var(--secondbg);
-	/* background-color: #221f1f96; */
-	padding: 50px 50px;
+	background-color: var(--background);
+	padding: 30px;
 	border-radius: 10px;
-	margin-top: 150px;
+	/* margin-top: 150px; */
 `;
 
 export const Parraf = styled.p`
@@ -102,9 +111,10 @@ export const Habs = styled.section`
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	gap: 40px;
-	margin-top: 150px;
-	background-color: var(--secondbg);
+	gap: 10px;
+	height: 150px;
+	/* margin-top: 150px; */
+	background-color: var(--background);
 	width: 100%;
 	border-radius: 10px;
 	padding: 50px;
