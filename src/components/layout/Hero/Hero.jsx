@@ -1,5 +1,5 @@
 import React from "react";
-import imgPerfil from "../../../assets/img/foto_de_perfil_bgrm.png";
+import imgPerfil from "../../../assets/img/fotodeperfil.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { ContTitle, H4, HeroCont, IconsCont, Img, ImgCont, Name } from "../../../pages/Home/HomeStyled";
 
