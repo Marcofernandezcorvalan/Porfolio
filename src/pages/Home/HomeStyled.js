@@ -20,6 +20,7 @@ export const HeroCont = styled.section`
 	/* margin-top: 200px; */
 	/* margin-bottom: 100px; */
 	height: 350px;
+	background-color: black;
 `;
 
 export const ContTitle = styled.div`
@@ -48,8 +49,8 @@ export const ImgCont = styled.div`
 `;
 
 export const Img = styled.img`
-	border-radius: 50px;
-	filter: drop-shadow(5px -10px 20px rgba(200, 127, 38, 0.3));
+	border-radius: 120px;
+	/* filter: drop-shadow(5px -10px 20px rgba(200, 127, 38, 0.3)); */
 	width: 80%;
 	/* border: 5px solid var(--background); */
 	opacity: 0.85;

@@ -21,7 +21,7 @@ export const ContentCont = styled.div`
 	flex-direction: column;
 	gap: 20px;
 	width: 100%;
-	padding: 20px;
+	padding: 20px 0px;
 	/* margin-top: 200px; */
 `;
 
