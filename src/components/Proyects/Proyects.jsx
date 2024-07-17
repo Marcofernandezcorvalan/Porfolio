@@ -1,6 +1,7 @@
 import React from "react";
+
+import { Name } from "../../pages/Home/HomeStyled";
 import { ContProyectItems, ProyectCont, ProyectItem } from "./ProyectsStyled";
-import { Name } from "../../../pages/Home/HomeStyled";
 
 const Proyects = () => {
 	return (

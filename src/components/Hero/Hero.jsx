@@ -1,13 +1,12 @@
 import React from "react";
-import imgPerfil from "../../../assets/img/foto.jpg";
+import imgPerfil from "../../assets/img/foto.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
-import { ContTitle, H4, HeroCont, IconsCont, Img, ImgCont, Name } from "../../../pages/Home/HomeStyled";
+import { ContTitle, H4, HeroCont, IconsCont, Img, ImgCont, Name } from "../../pages/Home/HomeStyled";
 
 const Hero = () => {
 	return (
 		<HeroCont>
 			<ContTitle>
-				{/* <Name>Marco</Name> */}
 				<Name style={{ textWrap: "balance" }}>Fernandez Corvalán Marco</Name>
 				<H4>Full Stack Developer</H4>
 				<IconsCont>

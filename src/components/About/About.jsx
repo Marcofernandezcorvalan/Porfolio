@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutMe, Name, Parraf } from "../../../pages/Home/HomeStyled";
+import { AboutMe, Name, Parraf } from "../../pages/Home/HomeStyled";
 
 const About = () => {
 	return (

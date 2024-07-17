@@ -1,5 +1,5 @@
 import React from "react";
-import { ContIcons, Habs, Name } from "../../../pages/Home/HomeStyled";
+import { ContIcons, Habs, Name } from "../../pages/Home/HomeStyled";
 import { SiExpress, SiHtml5, SiMongodb, SiRedux } from "react-icons/si";
 import { FaCss3Alt, FaNodeJs } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";

@@ -1,10 +1,9 @@
 import React from "react";
-
-import Skills from "../../components/layout/Skills/Skills";
-import Hero from "../../components/layout/Hero/Hero";
-import About from "../../components/layout/About/About";
-import Proyects from "../../components/layout/Proyects/Proyects";
 import { ContainerP } from "./HomeStyled";
+import Skills from "../../components/Skills/Skills";
+import Hero from "../../components/Hero/Hero";
+import About from "../../components/About/About";
+import Proyects from "../../components/Proyects/Proyects";
 
 const Home = () => {
 	return (
