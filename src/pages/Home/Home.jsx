@@ -3,7 +3,7 @@ import { ContainerP } from "./HomeStyled";
 import Skills from "../../components/Skills/Skills";
 import Hero from "../../components/Hero/Hero";
 import About from "../../components/About/About";
-import Proyects from "../../components/Proyects/Proyects";
+import Projects from "../../components/Projects/Projects";
 
 const Home = () => {
 	return (
@@ -13,7 +13,7 @@ const Home = () => {
 				<About />
 			</ContainerP>
 			<Skills />
-			<Proyects />
+			<Projects />
 		</>
 	);
 };

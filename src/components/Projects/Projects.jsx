@@ -1,14 +1,7 @@
 import React from "react";
 
 import { Name } from "../../pages/Home/HomeStyled";
-import {
-	ContProyectItems,
-	ProyectCont,
-	ProyectItem,
-	ProyectItemImg,
-	ProyectItemSkillsCont,
-	ProyectItemTitle,
-} from "./ProyectsStyled";
+
 import Ecommerce from "../../assets/img/E-commerce.png";
 import Api from "../../assets/img/Api-back.png";
 import Tateti from "../../assets/img/Tateti.png";
@@ -19,64 +12,72 @@ import { FaCss3Alt, FaNodeJs } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
 import { IoLogoReact } from "react-icons/io5";
-const Proyects = () => {
+import {
+	ContProjectItems,
+	ProjectCont,
+	ProjectItem,
+	ProjectItemImg,
+	ProjectItemSkillsCont,
+	ProjectItemTitle,
+} from "./ProjectsStyled";
+const Projects = () => {
 	return (
 		<>
-			<ProyectCont>
-				<Name>Proyects</Name>
-				<ContProyectItems>
-					<ProyectItem>
+			<ProjectCont>
+				<Name>Projects</Name>
+				<ContProjectItems>
+					<ProjectItem>
 						<a href="https://integrador-react-iota.vercel.app/" target="_blank">
-							<ProyectItemImg src={Ecommerce} alt="E-commerce" />
+							<ProjectItemImg src={Ecommerce} alt="E-commerce" />
 						</a>
-						<ProyectItemTitle>E-commerce</ProyectItemTitle>
-						<ProyectItemSkillsCont>
+						<ProjectItemTitle>E-commerce</ProjectItemTitle>
+						<ProjectItemSkillsCont>
 							<FaHtml5 />
 							<FaCss3Alt />
 							<RiJavascriptFill />
 							<IoLogoReact />
 							<SiRedux />
-						</ProyectItemSkillsCont>
-					</ProyectItem>
-					<ProyectItem>
+						</ProjectItemSkillsCont>
+					</ProjectItem>
+					<ProjectItem>
 						<a href="https://api-back-six.vercel.app/" target="_blank">
-							<ProyectItemImg src={Api} alt="Api (e-commerce)" />
+							<ProjectItemImg src={Api} alt="Api (e-commerce)" />
 						</a>
-						<ProyectItemTitle>Api e-commerce</ProyectItemTitle>
-						<ProyectItemSkillsCont>
+						<ProjectItemTitle>Api e-commerce</ProjectItemTitle>
+						<ProjectItemSkillsCont>
 							<FaHtml5 />
 							<BiLogoTypescript />
 							<FaNodeJs />
 							<SiExpress />
 							<SiMongodb />
-						</ProyectItemSkillsCont>
-					</ProyectItem>
-					<ProyectItem>
+						</ProjectItemSkillsCont>
+					</ProjectItem>
+					<ProjectItem>
 						<a href="https://ta-te-ti-orcin-rho.vercel.app/" target="_blank">
-							<ProyectItemImg src={Tateti} alt="tateti" />
+							<ProjectItemImg src={Tateti} alt="tateti" />
 						</a>
-						<ProyectItemTitle>Ta-Te-Ti</ProyectItemTitle>
-						<ProyectItemSkillsCont>
+						<ProjectItemTitle>Ta-Te-Ti</ProjectItemTitle>
+						<ProjectItemSkillsCont>
 							<FaHtml5 />
 							<FaCss3Alt />
 							<RiJavascriptFill />
 							<IoLogoReact />
-						</ProyectItemSkillsCont>
-					</ProyectItem>
-					<ProyectItem>
+						</ProjectItemSkillsCont>
+					</ProjectItem>
+					<ProjectItem>
 						<a href="https://pagina-seven.vercel.app/" target="_blank">
-							<ProyectItemImg src={Landing} alt="landing" />
+							<ProjectItemImg src={Landing} alt="landing" />
 						</a>
-						<ProyectItemTitle>Landing</ProyectItemTitle>
-						<ProyectItemSkillsCont>
+						<ProjectItemTitle>Landing</ProjectItemTitle>
+						<ProjectItemSkillsCont>
 							<FaHtml5 />
 							<FaCss3Alt />
-						</ProyectItemSkillsCont>
-					</ProyectItem>
-				</ContProyectItems>
-			</ProyectCont>
+						</ProjectItemSkillsCont>
+					</ProjectItem>
+				</ContProjectItems>
+			</ProjectCont>
 		</>
 	);
 };
 
-export default Proyects;
+export default Projects;

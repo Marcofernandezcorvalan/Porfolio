@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ProyectCont = styled.section`
+export const ProjectCont = styled.section`
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -13,7 +13,7 @@ export const ProyectCont = styled.section`
 	gap: 50px;
 `;
 
-export const ContProyectItems = styled.div`
+export const ContProjectItems = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -21,7 +21,7 @@ export const ContProyectItems = styled.div`
 	flex-wrap: wrap;
 `;
 
-export const ProyectItem = styled.div`
+export const ProjectItem = styled.div`
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
@@ -34,17 +34,17 @@ export const ProyectItem = styled.div`
 	gap: 7px;
 `;
 
-export const ProyectItemImg = styled.img`
+export const ProjectItemImg = styled.img`
 	width: 100%;
 	border-radius: 10px;
 `;
 
-export const ProyectItemTitle = styled.h3`
+export const ProjectItemTitle = styled.h3`
 	color: wheat;
 	font-size: 22px;
 `;
 
-export const ProyectItemSkillsCont = styled.div`
+export const ProjectItemSkillsCont = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
