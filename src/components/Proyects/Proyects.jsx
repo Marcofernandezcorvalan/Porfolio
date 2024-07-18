@@ -26,7 +26,7 @@ const Proyects = () => {
 				<Name>Proyects</Name>
 				<ContProyectItems>
 					<ProyectItem>
-						<a href="https://integrador-react-iota.vercel.app/">
+						<a href="https://integrador-react-iota.vercel.app/" target="_blank">
 							<ProyectItemImg src={Ecommerce} alt="E-commerce" />
 						</a>
 						<ProyectItemTitle>E-commerce</ProyectItemTitle>
@@ -39,7 +39,7 @@ const Proyects = () => {
 						</ProyectItemSkillsCont>
 					</ProyectItem>
 					<ProyectItem>
-						<a href="https://api-back-six.vercel.app/">
+						<a href="https://api-back-six.vercel.app/" target="_blank">
 							<ProyectItemImg src={Api} alt="Api (e-commerce)" />
 						</a>
 						<ProyectItemTitle>Api e-commerce</ProyectItemTitle>
@@ -52,7 +52,7 @@ const Proyects = () => {
 						</ProyectItemSkillsCont>
 					</ProyectItem>
 					<ProyectItem>
-						<a href="https://ta-te-ti-orcin-rho.vercel.app/">
+						<a href="https://ta-te-ti-orcin-rho.vercel.app/" target="_blank">
 							<ProyectItemImg src={Tateti} alt="tateti" />
 						</a>
 						<ProyectItemTitle>Ta-Te-Ti</ProyectItemTitle>
@@ -64,7 +64,7 @@ const Proyects = () => {
 						</ProyectItemSkillsCont>
 					</ProyectItem>
 					<ProyectItem>
-						<a href="https://pagina-seven.vercel.app/">
+						<a href="https://pagina-seven.vercel.app/" target="_blank">
 							<ProyectItemImg src={Landing} alt="landing" />
 						</a>
 						<ProyectItemTitle>Landing</ProyectItemTitle>
