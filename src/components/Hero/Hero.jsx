@@ -10,10 +10,10 @@ const Hero = () => {
 				<Name style={{ textWrap: "balance" }}>Fernandez Corvalán Marco</Name>
 				<H4>Full Stack Developer</H4>
 				<IconsCont>
-					<a href="https://github.com/Marcofernandezcorvalan">
+					<a href="https://github.com/Marcofernandezcorvalan" target="_blank">
 						<FaGithub style={{ color: "#00ff2fc7", fontSize: "25px", cursor: "pointer" }} />
 					</a>
-					<a href="https://www.linkedin.com/in/marco-fer-corv/">
+					<a href="https://www.linkedin.com/in/marco-fer-corv/" target="_blank">
 						<FaLinkedin style={{ color: "#375bc9", fontSize: "25px", cursor: "pointer" }} />
 					</a>
 				</IconsCont>
